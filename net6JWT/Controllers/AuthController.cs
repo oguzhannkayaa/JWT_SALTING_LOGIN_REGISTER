@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using net6JWT.Dtos;
@@ -23,6 +24,16 @@ namespace net6JWT.Controllers
         {
             _configuration = configuration;
             _userService = userService;
+        }
+
+        [Authorize]
+
+        [HttpGet("test")]
+
+        public string Test()
+        {
+
+            return "works";
         }
 
         [HttpPost("register")]

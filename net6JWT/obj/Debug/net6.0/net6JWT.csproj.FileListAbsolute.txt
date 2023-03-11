@@ -85,3 +85,4 @@ C:\Users\user\source\repos\net6JWT\net6JWT\obj\Debug\net6.0\refint\net6JWT.dll
 C:\Users\user\source\repos\net6JWT\net6JWT\obj\Debug\net6.0\net6JWT.pdb
 C:\Users\user\source\repos\net6JWT\net6JWT\obj\Debug\net6.0\net6JWT.genruntimeconfig.cache
 C:\Users\user\source\repos\net6JWT\net6JWT\obj\Debug\net6.0\ref\net6JWT.dll
+C:\Users\user\source\repos\net6JWT\net6JWT\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

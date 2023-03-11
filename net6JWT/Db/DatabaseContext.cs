@@ -12,14 +12,11 @@ namespace net6JWT.Db
 {
     public class DatabaseContext : DbContext
     {
-
-      
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=DESKTOP-HTHP4A7\\SQLEXPRESS;Database=multi;User Id=okaya;Password=596596;MultipleActiveResultSets=true;TrustServerCertificate=True");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-HTHP4A7\\SQLEXPRESS;Database=multi;User Id=okaya;Password=password;MultipleActiveResultSets=true;TrustServerCertificate=True");
             }
         }
 
