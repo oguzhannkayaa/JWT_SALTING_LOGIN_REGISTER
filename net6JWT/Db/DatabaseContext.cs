@@ -19,7 +19,7 @@ namespace net6JWT.Db
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=DESKTOP-HTHP4A7\\SQLEXPRESS;Database=multi;User Id=okaya;Password=596596;MultipleActiveResultSets=true;TrustServerCertificate=True");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-HTHP4A7\\SQLEXPRESS;Database=multi;User Id=username;Password=password;MultipleActiveResultSets=true;TrustServerCertificate=True");
             }
         }
 
